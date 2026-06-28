@@ -1,0 +1,11 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "Personal portfolio website of Collins Kosgei",
+  "private": true,
+  "scripts": {
+    "start": "http-server -p 8080 -c-1 ."
+  },
+  "author": "Collins Kosgei",
+  "license": "MIT"
+}
