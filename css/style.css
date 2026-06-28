@@ -1233,4 +1233,74 @@ body.light{
 
     transform:translateY(-8px);
 
+}/* =========================
+      Improved Projects
+========================= */
+
+.project-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+.project-card{
+
+    background:var(--card);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    transition:var(--transition);
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.project-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.project-card h3{
+
+    margin:20px;
+
+}
+
+.project-card p{
+
+    margin:0 20px 18px;
+
+    line-height:1.7;
+
+}
+
+.project-buttons{
+
+    display:flex;
+
+    gap:12px;
+
+    padding:0 20px 20px;
+
+    flex-wrap:wrap;
+
 }
