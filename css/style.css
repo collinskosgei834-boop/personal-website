@@ -1199,4 +1199,38 @@ body.light{
 
     --gray:#475569;
 
+}/* =========================
+      Certificates
+========================= */
+
+.certificate-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+}
+
+.certificate-card{
+
+    background:var(--card);
+
+    padding:30px;
+
+    border-radius:18px;
+
+    transition:var(--transition);
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-8px);
+
 }
